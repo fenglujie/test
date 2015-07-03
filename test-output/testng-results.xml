@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="0" started-at="2015-07-02T13:58:34Z" finished-at="2015-07-02T13:58:34Z">
+    <groups>
+    </groups>
+  </suite> <!-- test -->
+  <suite name="test_addcart_order" duration-ms="34" started-at="2015-07-02T13:58:34Z" finished-at="2015-07-02T13:58:34Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="34" started-at="2015-07-02T13:58:34Z" finished-at="2015-07-02T13:58:34Z">
+      <class name="com.test.TestngTest">
+        <test-method status="PASS" signature="sayHello(java.lang.String)[pri:0, instance:com.test.TestngTest@47d384ee]" name="sayHello" duration-ms="14" started-at="2015-07-02T21:58:34Z" description="测试通过" finished-at="2015-07-02T21:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello world]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sayHello -->
+      </class> <!-- com.test.TestngTest -->
+    </test> <!-- test -->
+  </suite> <!-- test_addcart_order -->
+</testng-results>

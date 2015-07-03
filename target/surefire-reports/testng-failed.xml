@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test_addcart]" parallel="classes">
+  <parameter name="word" value="Hi lulu"/>
+  <test name="test1(failed)" parallel="classes">
+    <classes>
+      <class name="com.test.TestngTest1">
+        <methods>
+          <include name="sayHi" invocation-numbers="0"/>
+          <include name="sayBefore"/>
+          <include name="sayAfter"/>
+        </methods>
+      </class> <!-- com.test.TestngTest1 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [test_addcart] -->

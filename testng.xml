@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test" verbose="0" parallel="classes" thread-count="20">
+  <suite-files>
+     <suite-file path="./test/test.xml" />
+     <suite-file path="./test/test1.xml" />
+  </suite-files>
+</suite>
