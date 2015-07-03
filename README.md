@@ -1,0 +1,1 @@
+maven整合thrift服务并使用testng进行单元测试
