@@ -1,0 +1,10 @@
+Enter file contents here<?xml version="1.0" encoding="UTF-8"?>
+<buyerLoginPage>
+  <username_input>
+	<input1></input1>
+	<input2></input2>
+	<input3></input3>
+  </username_input>
+  <password_input>//input[@name='password']</password_input>
+  <submit_button>//input[@name='commit']</submit_button>
+</buyerLoginPage>
